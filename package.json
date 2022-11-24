@@ -1,8 +1,8 @@
 {
+  "homepage": "http://xtheluk4s.github.io/portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://xtheluk4s.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
