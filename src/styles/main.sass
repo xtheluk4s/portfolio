@@ -1,0 +1,28 @@
+@use 'variables'
+    
+*
+    padding: 0
+    margin: 0
+    font-family: variables.$font-stack
+    box-sizing: border-box
+    -webkit-font-smoothing: antialiased
+    scroll-behavior: smooth
+
+body
+    background: variables.$body-bg-color
+
+a, svg
+    transtion: .4s
+
+::-webkit-scrollbar
+    width: .8rem
+
+::-webkit-scrollbar-track
+    background: variables.$bg-color
+
+::-webkit-scrollbar-thumb
+    background: hsl(333deg, 73%, 40%)
+    border-radius: .4rem
+
+::-webkit-scrollbar-thumb:hover
+    background: hsl(333deg, 73%, 30%)
